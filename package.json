@@ -1,0 +1,29 @@
+{
+  "name": "record-repository",
+  "version": "1.0.0",
+  "description": "[![banner](images/Banner.png)](https://weaverlabs.io)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weaver-lab/record-repository.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weaver-lab/record-repository/issues"
+  },
+  "homepage": "https://github.com/weaver-lab/record-repository#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.0",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
